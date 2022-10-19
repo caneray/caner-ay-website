@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <title>Personal Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid p-0 text-white text-center" id="header">
+    </div>
+    <nav class="navbar navbar-dark navbar-expand-lg text-white" id="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand text-black" id="anasayfalogo">Anasayfa</a>
+            <button type="button" class="navbar-toggler" id="mobilnavbar" data-bs-toggle="collapse" data-bs-target="#navbar-anasayfa" aria-controls="navbar-anasayfa">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-anasayfa">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item pl-5" style="padding:  0px 35px 0px">
+                        <a href="ozgecmisim.html" class="nav-link text-white">Özgeçmişim</a>
+                    </li>
+                    <li class="nav-item" style="padding:  0px 35px" >
+                        <a href="sehrim.html" class="nav-link text-white">Şehrim</a>
+                    </li>
+                    <li class="nav-item" style="padding:  0px 35px">
+                        <a href="takimimiz.html" class="nav-link text-white">Takımımız</a>
+                    </li>
+                    <li class="nav-item" style="padding:  0px 35px">
+                        <a href="ilgialanlarim.html" class="nav-link text-white">İlgi Alanlarım</a>
+                    </li>
+                    <li class="nav-item" style="padding:  0px 0px 0px 35px">
+                        <a href="iletisim.html" class="nav-link text-white">İletişim</a>
+                    </li>
+                </ul>
+                <form class="d-flex"></form>
+                <a href="login.php"><button class="btn btn-outline-light" type="submit">Giriş</button></a>
+            </div>
+        </div>
+
+    </nav>
+    <article>
+    <div class="container p-5">
+
+        <p>
+          Merhabalar adım Caner. 21 Yaşındayım. Tokatlıyım fakat İstanbul da doğdum büyüdüm. Hobilerim olarak basketbol ve voleybol oynamayı, 
+          gezmeyi ve yeni yerler keşfetmeyi, bilgisayar oyunlarını, araba kullanmayı severim. Sakarya Üniversitesine 2021-2022 öğretim yılında Dikey Geçiş Sınavı (DGS) 
+          ile Bilgisayar Mühendisliği bölümüne geldim. Bu bölümü seçmemin sebebi bilgisayar ile küçük yaşta tanıştım. Oyunlarla bilgisayarı öğrensem de 
+          bilgisayar kullanmaya karşı ayrı bir ilgim olduğu için bilgisayar mühendisliği mezunu insanların ne iş yaptığına bakarak bu mesleği seveceğimi
+          anladım. Şu anda ise Web Teknolojileri proje ödevimiz olan dinamik, responsive bir web site tasarlamakla uğraşıyorum.
+        </p>
+        <h4>Hobilerim</h4><br>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner" style="height:500px">
+              <div class="carousel-item active">
+                <a href="https://tr.wikipedia.org/wiki/Basketbol">
+                <img src="image/basketbol.jpg" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                  <a href="https://tr.wikipedia.org/wiki/Voleybol">
+                <img src="image/voleybol.jpg" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <img src="image/bilgisayaroyun.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/arabakullanma.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+
+    </div>
+    </article>
+
+
+
+</body>
+</html>

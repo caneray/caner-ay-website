@@ -1,0 +1,66 @@
+/* CSS DOSYASI */
+
+/* Boşlukları Sıfırla */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#ankara{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+#header{
+    height: 200px;
+    /* background-image: url(image/anitkabir.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#navbar{
+    background-color: #fd7e14;
+}
+#anasayfalogo{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+#canerayh5{
+    margin-left: 25px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#article ul a{
+    text-decoration: none;
+    color: black;
+}
+#article ul a:hover{
+    color: blue;
+}
+#istocilkokulu{
+    width: 100%;
+    height: auto;
+}
+#yssal{
+    width: 100%;
+    height: auto;
+}
+#ankarah5{
+    margin-left: 25px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+#sehrimp{
+    text-align: center;
+}
+#article  div img{
+    width: 100%;
+    height: auto;
+}
+#takimimizbasarilarul{
+    margin-left: 25px;
+
+}
+
+#iletisimformstyle{
+    padding: 100px;
+}

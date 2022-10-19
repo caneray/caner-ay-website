@@ -1,0 +1,138 @@
+body {
+    background: #fd7e14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    font-family: cursive;
+    box-sizing: padding-box;
+}
+
+form {
+    width: 500px;
+    border: 3px solid black;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label {
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+.button {
+    float: right;
+    border-radius: 5px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button:hover span {
+    padding-right: 25px;
+  }
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.button1{
+    float: left;
+    border-radius: 5px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button1:hover span {
+  padding-right: 25px;
+}
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.error {
+   background: #F2DEDE;
+   color: #0c0101;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+a {
+    /* float: right; */
+    background: white;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: .7;
+}
