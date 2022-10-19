@@ -1,4 +1,4 @@
-# caner-ay-website
+# caneray
  web technologies homework
  
 my first website
