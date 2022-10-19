@@ -7,7 +7,7 @@ I used the infinityfree site while publishing.
 
 Login
 
-admin
+Username: admin
 
-admin
+Password: admin
 
